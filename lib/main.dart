@@ -4,10 +4,21 @@ import 'package:hotel_booking/constant.dart';
 import 'package:hotel_booking/widgets/bottom_bar.dart';
 
 void main() {
-  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+  SystemChrome.setPreferredOrientations(
+    [
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ],
+  );
+
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
       statusBarIconBrightness: Brightness.dark,
-      statusBarBrightness: Brightness.dark));
+      statusBarBrightness: Brightness.dark,
+    ),
+  );
+
   runApp(const HotelBooking());
 }
 

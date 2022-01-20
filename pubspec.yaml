@@ -1,5 +1,5 @@
 name: hotel_booking
-description: A new Flutter project.
+description: booking app
 
 publish_to: "none"
 
@@ -28,17 +28,16 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
-    - lib/json/
 
   fonts:
     - family: NunitoSans
       fonts:
-        - asset: fonts/NunitoSans-Regular.ttf
-        - asset: fonts/NunitoSans-SemiBold.ttf
-        - asset: fonts/NunitoSans-Bold.ttf
-        - asset: fonts/NunitoSans-Black.ttf
+        - asset: assets/fonts/NunitoSans-Regular.ttf
+        - asset: assets/fonts/NunitoSans-SemiBold.ttf
+        - asset: assets/fonts/NunitoSans-Bold.ttf
+        - asset: assets/fonts/NunitoSans-Black.ttf
 
     - family: Roboto
       fonts:
-        - asset: fonts/Roboto-Regular.ttf
-        - asset: fonts/Roboto-Black.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Black.ttf
