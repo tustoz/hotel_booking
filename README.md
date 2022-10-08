@@ -1,4 +1,4 @@
-![](https://github.com/tustoz/crypto_wallet/blob/master/hotel-booking.jpg)
+![](https://github.com/tustoz/hotel_booking/blob/master/hotel-booking.jpg)
 
 # Hotel Booking App
 
